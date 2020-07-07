@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Perfect Skin Atlas</string>
+    <string name="action_settings">Not yet....</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+
+    <string name="show">Show Them</string>
+    <string name="last">Last Page</string>
+    <string name="color">Change Color</string>
+    <string name="katherine">皮城女警 凯特琳</string>
+    <string name="riven">放逐之刃 瑞雯</string>
+    <string name="thedarkinblade">暗裔剑魔 亚托克斯</string>
+    <string name="ninetailedfox">九尾狐妖 阿狸</string>
+    <string name="bladedancer">刀锋舞者 艾瑞莉娅</string>
+
+    <string name="edit_message">Edit Message</string>
+    <string name="button_send">Button Send</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="See_More">LOL has more than one thousand skins till now.\n Do you want to see my favorite skins?</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
