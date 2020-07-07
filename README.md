@@ -1,2 +1,1 @@
-# AndroidDevelopment
-Homework in Android Development Training
+First Homework
