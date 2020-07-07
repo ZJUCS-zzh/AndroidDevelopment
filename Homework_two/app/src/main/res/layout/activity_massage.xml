@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/changed"
+        android:layout_width="273dp"
+        android:layout_height="39dp"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="wait for padding"
+        android:textColor="@color/colorWord"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <LinearLayout
+        android:id="@+id/layout_3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorWord"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/changed">
+
+        <TextView
+            android:id="@+id/waste"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="欲知后事如何\n请下载今日头条app查看"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
