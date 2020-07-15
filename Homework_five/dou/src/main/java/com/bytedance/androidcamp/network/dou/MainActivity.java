@@ -220,13 +220,13 @@ public class MainActivity extends AppCompatActivity {
                 if (response.body() != null && response.body().videos != null ) {
                     mVideos = response.body().videos;
                     //@TODO  5服务端没有做去重，拿到列表后，可以在端侧根据自己的id，做列表筛选。
-                    Iterator<Video> it = mVideos.iterator();
-                    while(it.hasNext()) {
-                        Video v = it.next();
-                        if (!v.studentId.equals("3180102657")) {
-                            it.remove();
-                        }
-                    }
+//                    Iterator<Video> it = mVideos.iterator();
+//                    while(it.hasNext()) {
+//                        Video v = it.next();
+//                        if (!v.studentId.equals("3180102657")) {
+//                            it.remove();
+//                        }
+//                    }
                     mRv.getAdapter().notifyDataSetChanged();
                 }
                 mBtnRefresh.setText(R.string.refresh_feed);
